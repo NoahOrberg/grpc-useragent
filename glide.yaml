@@ -1,0 +1,12 @@
+package: github.com/NoahOrberg/prac_grpc
+import:
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: google.golang.org/grpc
+  subpackages:
+  - codes
+  - metadata

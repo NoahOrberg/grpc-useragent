@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package proto;
+
+service UserAgent{
+    rpc GetUA(UserAgentReq) returns (UserAgentRes);
+}
+
+message UserAgentRes {
+    string user_agent = 1;
+}
+
+message UserAgentReq {
+}
