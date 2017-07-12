@@ -4,7 +4,7 @@ import (
 	"flag"
 	"log"
 
-	"github.com/NoahOrberg/prac_grpc/protobuf"
+	"github.com/NoahOrberg/grpc-useragent/protobuf"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )
